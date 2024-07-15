@@ -123,6 +123,13 @@ Conclusion: <br/>
 
 ## Interactive Power BI Dashboard
 
+The steps for data preparation and data modeling are documented in [Airbnb_EDA in PostgreSQL.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Airbnb_EDA%20in%20PostgreSQL.sql).<br/>
+
+The semantic model of the dataset is presented as follows: <br/>
+
+!![image](https://github.com/user-attachments/assets/ba155c07-d663-4ec1-b38f-71dc8b1a3214)
+<br/>
+
 The dashboard is designed to answer the client's questions outlined in the problem statement section. 
 It combines multiple pages, including the main report page, listing details that can be drilled through from the main report page, rating insights, and hosting details. <br/>
 
@@ -148,12 +155,6 @@ Dashboard view for answering part of question 4: <br/>
 Dashboard view for answering question 5: <br/>
 ![image](https://github.com/user-attachments/assets/9a5d4456-89fa-4fcd-ba89-0d88e2f2a446)
 
-<br/>
-The semantic model of the dataset is presented as follows: <br/>
-<br/>
-!![image](https://github.com/user-attachments/assets/ba155c07-d663-4ec1-b38f-71dc8b1a3214)
-<br/>
-The steps for data preparation and data modeling are documented in [Airbnb_EDA in PostgreSQL.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Airbnb_EDA%20in%20PostgreSQL.sql).<br/>
 
 
 
