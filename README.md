@@ -59,11 +59,11 @@ Exploratory data analysis in Python was conducted after data cleaning and before
   - Explore relationships through data correlation. <br/>
 <br/>
 1. Pricing <br/>
-   Western Australia's average listing price is the highest, $245, slightly higher than that of NSW ($242).
-   The figure for QLD is the lowest, with an average listing price of $182. <br/>
+   - Western Australia's average listing price is the highest, $245, slightly higher than that of NSW ($242).
+     The figure for QLD is the lowest, with an average listing price of $182. <br/>
+     <br/>
+   ![image](https://github.com/user-attachments/assets/5395cda8-0971-494d-a75c-64807507f869) <br/>
    <br/>
-   ![image](https://github.com/user-attachments/assets/fdd3698e-a708-496e-918c-252fe97c55a0) <br/>
-   
    ![image](https://github.com/user-attachments/assets/20c9916a-77db-495a-b1c9-b3411658cec1) <br/>
  <br/>
 2. Host Joining Trend <br/>
