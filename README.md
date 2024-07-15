@@ -28,7 +28,7 @@ The downloaded CSV files (listings.csv.gz) include the following: <br/>
 3. Brisbane, Queensland, Australia <br/>
 4. Western Australia, Western Australia, Australia <br/>
 
-This project used the above data to represent the Airbnb listing in the states of NSW, VIC, QLD, and WA.
+This project used the above data to represent the Airbnb listing in NSW, VIC, QLD, and WA (Sates).
 
 ## Data Cleaning and Exploratory Data Analysis
 
@@ -44,12 +44,18 @@ Detailed steps and codes are documented in [Airbnb_Data cleaning_Python.ipynb](h
 ## EDA Summary
 
 Exploratory data analysis was conducted after data cleaning and before the dashboard creation to get a fundamental understanding of the dataset. <br/>
-1. Pricing
-   Western Australia's average listing price is the highest, which is $245, slightly higher than that of NSW ($242).
+1. Pricing <br/>
+   Western Australia's average listing price is the highest, $245, slightly higher than that of NSW ($242).
    The figure for QLD is the lowest, with an average listing price of $182. <br/>
    ![image](https://github.com/user-attachments/assets/fdd3698e-a708-496e-918c-252fe97c55a0) <br/>
-   ![image](https://github.com/user-attachments/assets/6d08163b-982e-4bff-9aa5-115064886618)
+   ![image](https://github.com/user-attachments/assets/6d08163b-982e-4bff-9aa5-115064886618) <br/>
 
+2. Host Joining Trend <br/>
+   - The number of hosts joining Airbnb saw a significant increase from 2013 to 2015,
+   - peaking in 2015 and 2016 across all states, with VIC experiencing the most drastic growth.
+   - From 2017 to 2021, there was a sharp decline in the number of new hosts.
+   - Starting in 2022 and continuing into 2023, the number of new hosts began to rise again.
+   ![image](https://github.com/user-attachments/assets/4ced4bb2-06b9-4d27-a2f1-9bfacdc5d1fe) <br/>
 
 
 
