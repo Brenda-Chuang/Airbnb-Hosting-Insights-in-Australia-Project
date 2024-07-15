@@ -141,7 +141,7 @@ It combines multiple pages, including the main report page, listing details that
    The most common property type and room type for Airbnb listings in Busselton, WA is the entire home. <br/>
 
    Dashboard view for answering questions 1-4: <br/>
-   ![image](https://github.com/user-attachments/assets/1b168c7a-644f-407d-964f-2d5d67a150bb)
+   ![image](![image](https://github.com/user-attachments/assets/5b85822b-22fd-4303-bf90-979f2a6e48ea)
 
 4. What is the seasonality of Airbnb hosting for the overall Australian market and the identified location in question 1? <br/>
    Generally, the peak season for the overall Australian market is between October and March, whereas the peak season for Airbnb hosting in Busselton, WA is between October and December. <br/>
@@ -151,7 +151,7 @@ It combines multiple pages, including the main report page, listing details that
 
 5. Who are the dominant hosts in the identified location? Provide detailed information including but not limited to their tenure, number of listings,
    and estimated revenue for the next 30 days. <br/>
-   The top 3 dominant hosts (measured by projected revenue) in Busselton, WA are DownSouth (9 years), Davinia (8 years), and Dunsborough Holiday (7 years), and their estimated revenue for the next 30 days are $617k, 570k, and $510k, respectively. <br/>
+   The top 3 dominant hosts (measured by projected revenue) in Busselton, WA are DownSouth (9 years), Davinia (8 years), and Dunsborough Holiday (7 years), and their estimated revenue for the next 30 days is $617k, 570k, and $510k, respectively. <br/>
 
    Dashboard view for answering question 5: <br/>
    ![image](https://github.com/user-attachments/assets/9a5d4456-89fa-4fcd-ba89-0d88e2f2a446)
