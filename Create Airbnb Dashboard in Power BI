@@ -1,4 +1,4 @@
-Airbnb Project in Power BI
+## Airbnb Project in Power BI
 1.	Data Preparation – Fact_listings
 (1)	Get data from the PostgreSQL database using DirectQuery.
 (2)	Change the storage mode from DirectQuery to ‘import’ mode.
