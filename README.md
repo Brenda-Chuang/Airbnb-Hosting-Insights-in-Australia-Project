@@ -123,7 +123,7 @@ Conclusion: <br/>
 
 ## Interactive Power BI Dashboard
 
-The steps for data preparation and data modeling are documented in [Airbnb_EDA in PostgreSQL.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Airbnb_EDA%20in%20PostgreSQL.sql).<br/>
+The steps for data preparation and data modeling are documented in [Create Airbnb Dashboard in Power BI.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Create%20Airbnb%20Dashboard%20in%20Power%20BI).<br/>
 
 The semantic model of the dataset is presented as follows: <br/>
 
@@ -140,20 +140,21 @@ It combines multiple pages, including the main report page, listing details that
 3. what is the most common property and room type for the identified location in question 1? <br/>
    The most common property type and room type for Airbnb listings in Busselton, WA is the entire home. <br/>
 
-Dashboard view for answering questions 1-4: <br/>
-![image](https://github.com/user-attachments/assets/1b168c7a-644f-407d-964f-2d5d67a150bb)
+   Dashboard view for answering questions 1-4: <br/>
+   ![image](https://github.com/user-attachments/assets/1b168c7a-644f-407d-964f-2d5d67a150bb)
 
 4. What is the seasonality of Airbnb hosting for the overall Australian market and the identified location in question 1? <br/>
    Generally, the peak season for the overall Australian market is between October and March, whereas the peak season for Airbnb hosting in Busselton, WA is between October and December. <br/>
 
-Dashboard view for answering part of question 4: <br/>
-![image](https://github.com/user-attachments/assets/cbcfec25-2246-403e-ade0-0352cca84c27)
+   Dashboard view for answering part of question 4: <br/>
+   ![image](https://github.com/user-attachments/assets/cbcfec25-2246-403e-ade0-0352cca84c27)
 
 5. Who are the dominant hosts in the identified location? Provide detailed information including but not limited to their tenure, number of listings,
    and estimated revenue for the next 30 days. <br/>
+   The top 3 dominant hosts (measured by projected revenue) in Busselton, WA are DownSouth (9 years), Davinia (8 years), and Dunsborough Holiday (7 years), and their estimated revenue for the next 30 days are $617k, 570k, and $510k, respectively. <br/>
 
-Dashboard view for answering question 5: <br/>
-![image](https://github.com/user-attachments/assets/9a5d4456-89fa-4fcd-ba89-0d88e2f2a446)
+   Dashboard view for answering question 5: <br/>
+   ![image](https://github.com/user-attachments/assets/9a5d4456-89fa-4fcd-ba89-0d88e2f2a446)
 
 
 
