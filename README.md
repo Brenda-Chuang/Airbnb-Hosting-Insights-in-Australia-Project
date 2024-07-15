@@ -40,7 +40,7 @@ The data cleaning includes the following steps:<br/>
 - Step 2: Data preparation (e.g., change data type, split columns, and handling missing values.) <br/>
 The cleaned data was written into a CSV file for further data storage.<br/>
 
-Detailed steps and codes are documented in [Airbnb_Data cleaning_Python.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Raw%20airbnb%20data/Airbnb_Data%20cleaning_Python.ipynb).<br/>
+Detailed steps and codes are documented in [Airbnb_Data cleaning_Python.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Airbnb_Data%20cleaning_Python.ipynb).<br/>
 
 ## Load Data into the PostgreSQL database
 **Tool: Python(Pandas/psycopg2/sqlalchemy) | SQL(PostgreSQL)**<br/>
@@ -49,7 +49,7 @@ Detailed steps and codes are documented in [Airbnb_Data cleaning_Python.ipynb](h
 - Step 2: Create tables and load the cleaned CSV file into the Airbnb database (Python). <br/>
 - Step 3: Change the data type to the correct format (PostgreSQL). <br/>
 
-Detailed steps and codes are documented in [Airbnb_Load Data into PostgreSQL.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Raw%20airbnb%20data/Airbnb_Load%20data%20into%20PostgreSQL.ipynb).<br/>
+Detailed steps and codes are documented in [Airbnb_Load Data into PostgreSQL.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Airbnb_Load%20data%20into%20PostgreSQL.ipynb).<br/>
 
 ## Summary of Exploratory Data Analysis <br/>
 Exploratory data analysis in Python was conducted after data cleaning and before dash board creation to get a fundamental understanding of the dataset. <br/>
