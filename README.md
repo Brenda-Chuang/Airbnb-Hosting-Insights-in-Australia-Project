@@ -84,7 +84,7 @@ Exploratory data analysis in Python was conducted after data cleaning and before
   
    - Based on the point chart, Cleanliness and Value negatively impact the overall rating score, with Value being the most influential negative factor.
    
-   ![image](https://github.com/user-attachments/assets/b9b55e74-1b07-4d44-bb2e-25ceaebf2b2a) 
+     ![image](https://github.com/user-attachments/assets/b9b55e74-1b07-4d44-bb2e-25ceaebf2b2a) 
   
    - Based on the correlation heat map, Accuracy and Value are two factors that strongly and positively correlate with the overall rating score.
      In addition, Cleanliness is the second most influential factor in the overall rating score. 
@@ -95,13 +95,13 @@ Exploratory data analysis in Python was conducted after data cleaning and before
 - SQL: <br/>
 Used for more detailed and specific analysis. This includes: <br/>
   - Identify the top-rated host in each state (WA, NSW, VIC, QLD).<br/>
-    ![image](https://github.com/user-attachments/assets/9ddec175-5724-4f3c-81b8-a822b984c309) <br/>
+    ![image](https://github.com/user-attachments/assets/1a7607d9-4000-48db-bf74-c5855cafd610)
     <br/>
   - Identify the dominant host in each state (the host with the most listings).<br/>
-    ![image](https://github.com/user-attachments/assets/1f84e86d-bb99-49ae-8a5c-8cbadab9edae) <br/>
+    ![image](https://github.com/user-attachments/assets/7914d4f1-5e37-4836-9461-0efbc3a88c17)
     <br/>
   - Calculate the total revenue and also the revenue in each suburb for the top dominant host in WA for the next 30 days.<br/>
-    ![image](https://github.com/user-attachments/assets/11f084ca-daf8-4634-b811-0049188c4993) br/>
+    ![image](https://github.com/user-attachments/assets/f9682c6b-0395-4ae8-af31-bfedcb2f7e3b)
     <br/>
 
 Conclusion: <br/>
