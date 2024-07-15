@@ -44,7 +44,7 @@ Detailed steps and codes are documented in [Airbnb_Data cleaning_Python.ipynb](h
 
 ## Load Data into the PostgreSQL database
 **Tool: Python(Pandas/psycopg2/sqlalchemy) | SQL(PostgreSQL)**<br/>
-<br/>
+
 - Step 1: Create an Airbnb database (Python).  <br/>
 - Step 2: Create tables and load the cleaned CSV file into the Airbnb database (Python). <br/>
 - Step 3: Change the data type to the correct format (PostgreSQL). <br/>
