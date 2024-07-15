@@ -58,7 +58,7 @@ Exploratory data analysis in Python was conducted after data cleaning and before
   - Understand the data statistics and distribution. <br/>
   - Explore relationships through data correlation. <br/>
 <br/>
-  1. Pricing <br/>
+  (1) Pricing <br/>
      Western Australia's average listing price is the highest, $245, slightly higher than that of NSW ($242).
      The figure for QLD is the lowest, with an average listing price of $182. <br/>
      <br/>
