@@ -118,15 +118,20 @@ Conclusion: <br/>
 
 ## Interactive Power BI Dashboard
 
-The dashboard is designed to answer the client's questions outlined in the problem statement section. It achieves this by combining multiple pages, including the main report page, listing details that can be drilled through from the main report page, rating insights, and hosting details. <br/>
+The dashboard is designed to answer the client's questions outlined in the problem statement section. 
+It combines multiple pages, including the main report page, listing details that can be drilled through from the main report page, rating insights, and hosting details. <br/>
 
 Key features of the dashboard include: <br/>
 - Main Report Page: Provides a high-level overview addressing the primary questions.
 - Drill-Through to Listing Details: Allows users to explore detailed information about specific listings from the main report page.
-- Rating Insights: Offers in-depth analysis of review ratings to help hosts understand factors influencing guest satisfaction.
-- Hosting Insights: Presents detailed information about hosts, including their tenure, number of listings, ratings, and estimated revenue for the next 30 days.
-- Light and dark modes: Allows users to switch between visual themes according to their preference.
+- Rating Insights: Apply key influencer visuals to review ratings to help potential hosts understand factors influencing overall rating.
+- Hosting Insights: Present detailed information about existing hosts, including their tenure, number of listings, ratings, and estimated revenue for the next 30 days.
+- Light and dark modes: Allows users to switch between visual themes based on preference.
 
+The semantic model of the dataset is presented as follows: <br/>
+<br/>
+![image](https://github.com/user-attachments/assets/4510c705-9b95-424e-a197-9e7f2bab0e11)
+<br/>
 The steps for data preparation and data modeling are documented in [Airbnb_EDA in PostgreSQL.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Airbnb_EDA%20in%20PostgreSQL.sql).<br/>
 
 
