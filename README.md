@@ -112,7 +112,7 @@ Conclusion: <br/>
     This can provide potential hosts with insights on how to improve overall ratings, which may, in turn, increase booking rates and revenue.
 3. Host information will be presented on one of the report pages for stakeholder exploration.
 
-
+## Interactive Power BI Dashboard
 
 
 
