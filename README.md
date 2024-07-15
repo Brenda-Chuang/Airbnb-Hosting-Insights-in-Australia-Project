@@ -42,7 +42,7 @@ The cleaned data was written into a CSV file for further data storage.<br/>
 
 Detailed steps and codes are documented in [Airbnb_Data cleaning_Python.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Raw%20airbnb%20data/Airbnb_Data%20cleaning_Python.ipynb).<br/>
 
-## Load Data into the PostgreSQL database <br/>
+## Load Data into the PostgreSQL database
 **Tool: Python(Pandas/psycopg2/sqlalchemy) | SQL(PostgreSQL)**<br/>
 <br/>
 - Step 1: Create an Airbnb database (Python).  <br/>
