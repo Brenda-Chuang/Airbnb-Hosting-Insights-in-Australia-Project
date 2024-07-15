@@ -1,0 +1,38 @@
+Airbnb Project in Power BI
+1.	Data Preparation – Fact_listings
+(1)	Get data from the PostgreSQL database using DirectQuery.
+(2)	Change the storage mode from DirectQuery to ‘import’ mode.
+(3)	Change the table name to ‘Fact_listings.’
+(4)	The id column seems corrupted. Extract the id from the ‘listing_url’ column using the delimiter ‘rooms/’ and rename the column as ‘listing_id’.
+ 
+(5)	Change the data type to the correct format.
+(6)	Unfiltered null data in the ‘first_review’ column.  
+2.	Data Preparation –Fact_reviews
+(1)	Import data source from reviews_WA, reviews_Brisbane, reviews_Melbourne, reviews_Sydney
+(2)	Append the above queries into a Fact_reviews table
+(3)	Merge the Fact_reviews table (many) with the Fact_listings table (one) and create a many-to-one relationship
+(4)	Remove null in the listing_id column of the Fact_reviews table (This is caused by previous data cleaning process; some rows were remove so that some reviews cannot link to the listings.)
+
+Data Modelling
+1.	Normalise the fact table and create the Dim_host table
+(1)	Duplicate the fact table. 
+(2)	Select host_id, host_name, and host_since and remove other columns. 
+(3)	Remove duplicates in the host_id column 
+ 
+(4)	Merge the fact table with Dim_host to create many-to-one relationships
+2.	Normalise the fact table and create the Dim_location table
+(1)	Duplicate the fact table. 
+(2)	Select state and suburb and remove other columns. 
+(3)	Remove duplicates in both column
+(4)	Add an index column and rename it as lication_id
+ 
+(5)	Merge the fact table with Dim_location to create many-to-one relationships
+3.	Normalise the ‘property_type’ column
+(1)	Clean the data (resolve upper/lower case duplicate issue) and replace unnecessary characters in the fact table.
+(2)	Duplicate the fact table and change the table name to Dim_property_type.  
+(3)	Remove duplicates. Add an index column and rename it as propery_type_id
+4.	Normalise the ‘room_type’ column
+(1)	Duplicate the fact table and change the table name to Dim_room_type.  
+(2)	Remove duplicates. Add an index column and rename it as room_type_id
+5.	Hide all the foreign keys in the fact table so that they are not shown in the report view.
+6.	Create a Calendar table based on the review data
