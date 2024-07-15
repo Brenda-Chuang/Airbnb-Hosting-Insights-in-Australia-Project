@@ -61,6 +61,7 @@ Exploratory data analysis in Python was conducted after data cleaning and before
 1. Pricing <br/>
    - Western Australia's average listing price is the highest, $245, slightly higher than that of NSW ($242).
      The figure for QLD is the lowest, with an average listing price of $182. 
+
      <br/>
      ![image](https://github.com/user-attachments/assets/8636042a-bcd7-476e-83ff-a87a585db748)
      <br/>
