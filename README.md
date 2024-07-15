@@ -63,8 +63,8 @@ Exploratory data analysis in Python was conducted after data cleaning and before
    The figure for QLD is the lowest, with an average listing price of $182. <br/>
    <br/>
    ![image](https://github.com/user-attachments/assets/fdd3698e-a708-496e-918c-252fe97c55a0) <br/>
-   <br/>
-   ![image](https://github.com/user-attachments/assets/6d08163b-982e-4bff-9aa5-115064886618) <br/>
+   ![image](https://github.com/user-attachments/assets/20c9916a-77db-495a-b1c9-b3411658cec1) <br/>
+ <br/>
   
 2. Host Joining Trend <br/>
    - The number of hosts joining Airbnb saw a significant increase from 2013 to 2015,
