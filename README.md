@@ -106,7 +106,7 @@ Exploratory data analysis in Python was conducted after data cleaning and before
     ![image](https://github.com/user-attachments/assets/f9682c6b-0395-4ae8-af31-bfedcb2f7e3b)
     <br/>
 
-  Detailed steps and codes are documented in [Airbnb_EDA in PostgreSQL.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Airbnb_EDA%20in%20PostgreSQL.sql).<br/>
+Detailed steps and codes are documented in [Airbnb_EDA in PostgreSQL.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Airbnb_EDA%20in%20PostgreSQL.sql).<br/>
 
 Conclusion: <br/>
 1. To improve the overall rating score, hosts should focus on enhancing the Value and Cleanliness of their listings,
