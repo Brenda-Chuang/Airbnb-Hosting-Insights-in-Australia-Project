@@ -39,6 +39,7 @@ The data cleaning includes the following steps:<br/>
 - Step 1: Raw Data Understanding (e.g., data shape, data attributes, and data type.) <br/>
 - Step 2: Data preparation (e.g., change data type, split columns, and handling missing values.) <br/>
 - Step 3: Exploratory Data Analysis (e.g., data statistics, data distribution, and data relationships.) <br/>
+The cleaned data was written into a CSV file for further data storage.<br/>
 
 Detailed steps and codes are documented in [Airbnb_Data cleaning_Python.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Raw%20airbnb%20data/Airbnb_Data%20cleaning_Python.ipynb).<br/>
 
@@ -80,16 +81,22 @@ Exploratory data analysis was conducted after data cleaning and before the dashb
      <br/>
      ![image](https://github.com/user-attachments/assets/26462ccf-77b6-4df2-a39b-b1ecaa633375) <br/>
      <br/>
-Conclusion:  <br/>
-(1) To improve the overall rating score, hosts should focus on enhancing the Value and Cleanliness of their listings,
+     
+Conclusion: <br/>
+1. To improve the overall rating score, hosts should focus on enhancing the Value and Cleanliness of their listings,
          as these factors significantly influence guest satisfaction. 
          Additionally, maintaining high accuracy in listing descriptions can positively impact overall ratings. <br/>
-(2) The correlation of review rating scores among various categories can be presented in the interactive.
+2. The correlation of review rating scores among various categories can be presented in the interactive.
     This can provide potential hosts with insights on how to improve overall ratings, which may, in turn, increase booking rates and revenue.
 
+## Load Data into the PostgreSQL database <br/>
+ <br/>
+- Step 1: Create an Airbnb database. <br/>
+- Step 2: Create tables and load the cleaned CSV file into the Airbnb database. <br/>
 
+Detailed steps and codes are documented in [Airbnb_Load Data into PostgreSQL.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Raw%20airbnb%20data/Airbnb_Load%20data%20into%20PostgreSQL.ipynb).<br/>
 
-
+## 
 
 
 
