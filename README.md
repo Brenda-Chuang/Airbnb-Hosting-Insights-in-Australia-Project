@@ -54,11 +54,46 @@ Exploratory data analysis was conducted after data cleaning and before the dashb
    ![image](https://github.com/user-attachments/assets/6d08163b-982e-4bff-9aa5-115064886618) <br/>
 
 2. Host Joining Trend <br/>
+
    - The number of hosts joining Airbnb saw a significant increase from 2013 to 2015,
    - peaking in 2015 and 2016 across all states, with VIC experiencing the most drastic growth.
    - From 2017 to 2021, there was a sharp decline in the number of new hosts.
-   - Starting in 2022 and continuing into 2023, the number of new hosts began to rise again.
+   - Starting in 2022 and continuing into 2023, the number of new hosts began to rise again. <br/>
+   <br/>
    ![image](https://github.com/user-attachments/assets/4ced4bb2-06b9-4d27-a2f1-9bfacdc5d1fe) <br/>
+
+3. Host Response and Acceptance Rate <br/>
+
+   Airbnb hosts in WA and QLD tend to respond to guests and accept bookings more frequently, compared to hosts in NSW and VIC. <br/>
+   <br/>
+   ![image](https://github.com/user-attachments/assets/17b636dc-b3c6-4a3d-8039-a08c3868f4fd) <br/>
+
+4. Review Rating score <br/>
+
+   - Based on the point chart, Cleanliness and Value negatively impact the overall rating score, with Value being the most influential negative factor. <br/>
+     <br/>
+     ![image](https://github.com/user-attachments/assets/b9b55e74-1b07-4d44-bb2e-25ceaebf2b2a) <br/>
+     <br/>
+
+   - Based on the correlation heat map, Accuracy and Value are two factors that strongly and positively correlate with the overall rating score.
+     In addition, Cleanliness is the second most influential factor in the overall rating score. 
+     <br/>
+     ![image](https://github.com/user-attachments/assets/26462ccf-77b6-4df2-a39b-b1ecaa633375) <br/>
+     <br/>
+Conclusion:
+(1) To improve the overall rating score, hosts should focus on enhancing the Value and Cleanliness of their listings,
+         as these factors significantly influence guest satisfaction.
+         Additionally, maintaining high accuracy in listing descriptions can positively impact overall ratings. <br/>
+(2) The correlation of review rating scores among various categories can be presented in the interactive.
+    This can provide potential hosts with insights on how to improve overall ratings, which may, in turn, increase booking rates and revenue.
+
+
+
+
+
+
+
+
 
 
 
