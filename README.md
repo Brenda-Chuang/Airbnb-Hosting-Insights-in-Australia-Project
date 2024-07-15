@@ -82,10 +82,9 @@ Exploratory data analysis in Python was conducted after data cleaning and before
   
 4. Review Rating score <br/>
   
-   - Based on the point chart, Cleanliness and Value negatively impact the overall rating score, with Value being the most influential negative factor. <br/>
-   <br/>
-   ![image](https://github.com/user-attachments/assets/b9b55e74-1b07-4d44-bb2e-25ceaebf2b2a) <br/>
-   <br/>
+   - Based on the point chart, Cleanliness and Value negatively impact the overall rating score, with Value being the most influential negative factor.
+   
+   ![image](https://github.com/user-attachments/assets/b9b55e74-1b07-4d44-bb2e-25ceaebf2b2a) 
   
    - Based on the correlation heat map, Accuracy and Value are two factors that strongly and positively correlate with the overall rating score.
      In addition, Cleanliness is the second most influential factor in the overall rating score. 
