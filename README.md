@@ -32,12 +32,13 @@ This project used the above data to represent the Airbnb listing in NSW, VIC, QL
 
 ## Data Cleaning and Exploratory Data Analysis
 
-**Tool: Python (Pandas/Matplotlib/Seaborn) <br/>**
+**Tool: Python (Pandas/Matplotlib/Seaborn)** <br/>
+<br/>
 The data cleaning includes the following steps:<br/>
-Pre-cleaning: Concat all CSV files into one single dataframe <br/>
-Step 1: Raw Data Understanding (e.g., data shape, data attributes, and data type.) <br/>
-Step 2: Data preparation (e.g., change data type, split columns, and handling missing values.) <br/>
-Step 3: Exploratory Data Analysis (e.g., data statistics, data distribution, and data relationships.) <br/>
+- Pre-cleaning: Concat all CSV files into one single dataframe <br/>
+- Step 1: Raw Data Understanding (e.g., data shape, data attributes, and data type.) <br/>
+- Step 2: Data preparation (e.g., change data type, split columns, and handling missing values.) <br/>
+- Step 3: Exploratory Data Analysis (e.g., data statistics, data distribution, and data relationships.) <br/>
 
 Detailed steps and codes are documented in [Airbnb_Data cleaning_Python.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Raw%20airbnb%20data/Airbnb_Data%20cleaning_Python.ipynb).<br/>
 
