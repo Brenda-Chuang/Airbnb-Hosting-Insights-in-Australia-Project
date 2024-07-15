@@ -80,9 +80,9 @@ Exploratory data analysis was conducted after data cleaning and before the dashb
      <br/>
      ![image](https://github.com/user-attachments/assets/26462ccf-77b6-4df2-a39b-b1ecaa633375) <br/>
      <br/>
-Conclusion:
+Conclusion:  <br/>
 (1) To improve the overall rating score, hosts should focus on enhancing the Value and Cleanliness of their listings,
-         as these factors significantly influence guest satisfaction.
+         as these factors significantly influence guest satisfaction. 
          Additionally, maintaining high accuracy in listing descriptions can positively impact overall ratings. <br/>
 (2) The correlation of review rating scores among various categories can be presented in the interactive.
     This can provide potential hosts with insights on how to improve overall ratings, which may, in turn, increase booking rates and revenue.
