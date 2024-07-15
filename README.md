@@ -17,4 +17,18 @@ Potential Airbnb hosts who wish to invest in the Airbnb business have approached
 6. Who are the dominant hosts in the identified location? Provide detailed information including but not limited to their tenure, number of listings,
    and estimated revenue for the next 30 days. <br/>
 
-The goal is to equip potential hosts with actionable insights to make informed decisions about their Airbnb investments.
+The goal is to equip potential hosts with actionable insights to make informed decisions about their Airbnb investments. <br/>
+
+## Data Collection
+
+The data was collected from Inside Airbnb (https://insideairbnb.com/get-the-data/). <br/>
+The downloaded dataset includes the following: <br/>
+1. Sydney, New South Wales, Australia
+2. Melbourne, Victoria, Australia
+3. Brisbane, Queensland, Australia
+4. Western Australia, Western Australia, Australia
+
+
+
+
+
