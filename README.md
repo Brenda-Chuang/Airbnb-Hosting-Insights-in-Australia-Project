@@ -21,7 +21,7 @@ The goal is to equip potential hosts with actionable insights to make informed d
 
 ## Data Collection
 
-The data was collected from Inside Airbnb (https://insideairbnb.com/get-the-data/). <br/>
+The data was collected from Inside Airbnb (https://insideairbnb.com/get-the-data/) and scrapped in June 2024. <br/>
 The downloaded CSV files (listings.csv.gz) include the following: <br/>
 1. Sydney, New South Wales, Australia <br/>
 2. Melbourne, Victoria, Australia <br/>
@@ -93,7 +93,7 @@ Exploratory data analysis in Python was conducted after data cleaning and before
      <br/>
 
 - SQL: <br/>
-Used for more detailed and specific analysis. This includes: <br/>
+  Used for more detailed and specific analysis. This includes: <br/>
   - Identify the top-rated host in each state (WA, NSW, VIC, QLD).<br/>
     ![image](https://github.com/user-attachments/assets/1a7607d9-4000-48db-bf74-c5855cafd610)
     <br/>
@@ -101,8 +101,12 @@ Used for more detailed and specific analysis. This includes: <br/>
     ![image](https://github.com/user-attachments/assets/7914d4f1-5e37-4836-9461-0efbc3a88c17)
     <br/>
   - Calculate the total revenue and also the revenue in each suburb for the top dominant host in WA for the next 30 days.<br/>
+    Suppose the properties are booked and not blocked by the host. The top 1 dominant host is Let Go, who owns 86 Airbnan listings,
+	   and the agency is about to earn AU$ 455,962 in the next 30 days at the time the data was scrapped. <br/>
     ![image](https://github.com/user-attachments/assets/f9682c6b-0395-4ae8-af31-bfedcb2f7e3b)
     <br/>
+
+  Detailed steps and codes are documented in [Airbnb_EDA in PostgreSQL.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Airbnb_EDA%20in%20PostgreSQL.sql).<br/>
 
 Conclusion: <br/>
 1. To improve the overall rating score, hosts should focus on enhancing the Value and Cleanliness of their listings,
@@ -114,15 +118,16 @@ Conclusion: <br/>
 
 ## Interactive Power BI Dashboard
 
+The dashboard is designed to answer the client's questions outlined in the problem statement section. It achieves this by combining multiple pages, including the main report page, listing details that can be drilled through from the main report page, rating insights, and hosting details. <br/>
 
+Key features of the dashboard include: <br/>
+- Main Report Page: Provides a high-level overview addressing the primary questions.
+- Drill-Through to Listing Details: Allows users to explore detailed information about specific listings from the main report page.
+- Rating Insights: Offers in-depth analysis of review ratings to help hosts understand factors influencing guest satisfaction.
+- Hosting Insights: Presents detailed information about hosts, including their tenure, number of listings, ratings, and estimated revenue for the next 30 days.
+- Light and dark modes: Allows users to switch between visual themes according to their preference.
 
-
-
-
-
-
-
-
+The steps for data preparation and data modeling are documented in [Airbnb_EDA in PostgreSQL.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Airbnb_EDA%20in%20PostgreSQL.sql).<br/>
 
 
 
