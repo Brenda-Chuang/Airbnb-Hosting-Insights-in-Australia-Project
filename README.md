@@ -2,6 +2,8 @@
  
 ## Dashboard Overview
 
+https://github.com/user-attachments/assets/95313bad-92dc-4e1f-b2ad-1d7888ea7c38
+
 Key features of the dashboard include: <br/>
 - Main Report Page: Provides a high-level overview addressing the primary questions.
 - Drill-Through to Listing Details: Allows users to explore detailed information about specific listings from the main report page. Additionally, a map visual is applied for a better geographical understanding of each listing.
@@ -127,11 +129,12 @@ The steps for data preparation and data modeling are documented in [Create Airbn
 
 The semantic model of the dataset is presented as follows: <br/>
 
-!![image](https://github.com/user-attachments/assets/ba155c07-d663-4ec1-b38f-71dc8b1a3214)
+![image](https://github.com/user-attachments/assets/ba155c07-d663-4ec1-b38f-71dc8b1a3214)
 <br/>
 
-The dashboard is designed to answer the client's questions outlined in the problem statement section. 
-It combines multiple pages, including the main report page, listing details that can be drilled through from the main report page, rating insights, and hosting details. <br/>
+The dashboard is designed to answer the client's questions outlined in the problem statement section and provide additional information for further exploration. 
+It combines multiple pages, including the main report page, listing details that can be drilled through from the main report page, rating insights, and hosting details. 
+As such, the potential hosts can explore the dashboard for more insights than just getting the answer from the original problem statement. <br/>
 
 1. Which location is ideal for starting an Airbnb business based on booking rates? <br/>
    Busselton, WA is considered an ideal location to start an Airbnb business, as the suburb has the most bookings (26,899) and a high booking rate (87%) for the next 30 days. <br/>
