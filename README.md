@@ -1,4 +1,4 @@
-# Airbnb Hosting in Australia Project
+# Airbnb Hosting Insights in Australia
  
 ## Dashboard Overview
 
