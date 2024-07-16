@@ -144,7 +144,7 @@ As such, the potential hosts can explore the dashboard for more insights than ju
    The most common property type and room type for Airbnb listings in Busselton, WA is the entire home. <br/>
 
    Dashboard view for answering questions 1-4: <br/>
-   ![image](![image](https://github.com/user-attachments/assets/5b85822b-22fd-4303-bf90-979f2a6e48ea)
+   (![image](https://github.com/user-attachments/assets/5b85822b-22fd-4303-bf90-979f2a6e48ea)
 
 4. What is the seasonality of Airbnb hosting for the overall Australian market and the identified location in question 1? <br/>
    Generally, the peak season for the overall Australian market is between October and March, whereas the peak season for Airbnb hosting in Busselton, WA is between October and December. <br/>
