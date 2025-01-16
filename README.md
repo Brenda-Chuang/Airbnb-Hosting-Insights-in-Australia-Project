@@ -28,7 +28,7 @@ The goal is to equip potential hosts with actionable insights to make informed d
 
 ## Data Collection
 
-The data was collected from Inside Airbnb (https://insideairbnb.com/get-the-data/) and scrapped in June 2024. <br/>
+The data was collected from Inside Airbnb (https://insideairbnb.com/get-the-data/) in June 2024. <br/>
 The downloaded CSV files (listings.csv.gz) include the following: <br/>
 1. Sydney, New South Wales, Australia <br/>
 2. Melbourne, Victoria, Australia <br/>
