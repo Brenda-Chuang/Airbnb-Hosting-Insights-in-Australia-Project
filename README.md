@@ -12,7 +12,7 @@ Key features of the dashboard include: <br/>
 - Light and dark modes: Allows users to switch between visual themes based on preference.
 
 Key Rating Influencers:<br/>
-Identified <span style="color:red">Value</span>, <span style="color:red">Cleanliness</span>, and <span style="color:red">Accuracy</span> as critical factors significantly impacting overall guest satisfaction.
+Identified <span style="color:red;">Value</span>, <span style="color:red;">Cleanliness</span>, and <span style="color:red;">Accuracy</span> as critical factors significantly impacting overall guest satisfaction.
 
 Actionable Recommendations for Hosts:<br/>
 Enhance Value by offering competitive pricing and additional amenities.<br/>
