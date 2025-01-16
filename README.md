@@ -11,6 +11,17 @@ Key features of the dashboard include: <br/>
 - Hosting Insights: Present detailed information about existing hosts, including their tenure, number of listings, ratings, and estimated revenue for the next 30 days.
 - Light and dark modes: Allows users to switch between visual themes based on preference.
 
+Key Rating Influencers:<br/>
+Identified <span style="color:red">Value</span>, <span style="color:red">Cleanliness</span>, and <span style="color:red">Accuracy</span> as critical factors significantly impacting overall guest satisfaction.
+
+Actionable Recommendations for Hosts:<br/>
+Enhance Value by offering competitive pricing and additional amenities.<br/>
+Improve Cleanliness through thorough cleaning protocols and guest feedback.<br/>
+Ensure Accuracy in listing descriptions to set correct guest expectations.
+
+Data-Driven Decision Support:<br/>
+Provided potential hosts with insights into booking rates, listing details, and host performance metrics to inform investment decisions.
+
 ## Problem Statement
 
 This project aims to provide potential Airbnb hosts in Australia, particularly in NSW, VIC, QLD, and WA, with key insights based on booking rates, listing details, and existing host information. <br/>
