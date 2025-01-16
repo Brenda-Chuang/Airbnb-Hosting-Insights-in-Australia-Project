@@ -115,13 +115,6 @@ Exploratory data analysis in Python was conducted after data cleaning and before
 
 Detailed steps and codes are documented in [Airbnb_EDA in PostgreSQL.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Airbnb_EDA%20in%20PostgreSQL.sql).<br/>
 
-Recommendation: <br/>
-1. To improve the overall rating score, hosts should focus on enhancing the Value and Cleanliness of their listings,
-   as these factors significantly influence guest satisfaction. 
-   Additionally, maintaining high accuracy in listing descriptions can positively impact overall ratings. <br/>
-2. The correlation of review rating scores among various categories can be presented in the interactive dashboard.
-    This can provide potential hosts with insights on how to improve overall ratings, which may, in turn, increase booking rates and revenue.
-3. Host information will be presented on one of the report pages for stakeholder exploration.
 
 ## Interactive Power BI Dashboard
 
@@ -144,7 +137,7 @@ As such, the potential hosts can explore the dashboard for more insights than ju
    The most common property type and room type for Airbnb listings in Busselton, WA is the entire home. <br/>
 
    Dashboard view for answering questions 1-4: <br/>
-   (![image](https://github.com/user-attachments/assets/5b85822b-22fd-4303-bf90-979f2a6e48ea)
+   ![image](https://github.com/user-attachments/assets/5b85822b-22fd-4303-bf90-979f2a6e48ea)
 
 4. What is the seasonality of Airbnb hosting for the overall Australian market and the identified location in question 1? <br/>
    Generally, the peak season for the overall Australian market is between October and March, whereas the peak season for Airbnb hosting in Busselton, WA is between October and December. <br/>
