@@ -115,17 +115,17 @@ Exploratory data analysis in Python was conducted after data cleaning and before
 
 Detailed steps and codes are documented in [Airbnb_EDA in PostgreSQL.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Airbnb_EDA%20in%20PostgreSQL.sql).<br/>
 
-Conclusion: <br/>
+Recommendation: <br/>
 1. To improve the overall rating score, hosts should focus on enhancing the Value and Cleanliness of their listings,
    as these factors significantly influence guest satisfaction. 
    Additionally, maintaining high accuracy in listing descriptions can positively impact overall ratings. <br/>
-2. The correlation of review rating scores among various categories can be presented in the interactive.
+2. The correlation of review rating scores among various categories can be presented in the interactive dashboard.
     This can provide potential hosts with insights on how to improve overall ratings, which may, in turn, increase booking rates and revenue.
 3. Host information will be presented on one of the report pages for stakeholder exploration.
 
 ## Interactive Power BI Dashboard
 
-The steps for data preparation and data modeling are documented in [Create Airbnb Dashboard in Power BI.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Create%20Airbnb%20Dashboard%20in%20Power%20BI).<br/>
+The steps for data preparation and data modelling are documented in [Create Airbnb Dashboard in Power BI.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Create%20Airbnb%20Dashboard%20in%20Power%20BI).<br/>
 
 The semantic model of the dataset is presented as follows: <br/>
 
