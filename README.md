@@ -110,8 +110,9 @@ Exploratory data analysis in Python was conducted after data cleaning and before
      ![image](https://github.com/user-attachments/assets/26462ccf-77b6-4df2-a39b-b1ecaa633375) <br/>
      <br/>
 
-- SQL: <br/>
-  Used for more detailed and specific analysis. This includes: <br/>
+- PostgreSQL Analysis: <br/>
+  To enable efficient querying and analysis, the Airbnb dataset was imported into a PostgreSQL database.
+  Using SQL, I conducted advanced analyses to answer key business questions, such as identifying top-rated hosts, dominant hosts by listings, and revenue estimates. <br/>
   - Identify the top-rated host in each state (WA, NSW, VIC, QLD).<br/>
     ![image](https://github.com/user-attachments/assets/1a7607d9-4000-48db-bf74-c5855cafd610)
     <br/>
@@ -126,8 +127,13 @@ Exploratory data analysis in Python was conducted after data cleaning and before
 
 Detailed steps and codes are documented in [Airbnb_EDA in PostgreSQL.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Airbnb_EDA%20in%20PostgreSQL.sql).<br/>
 
-
 ## Interactive Power BI Dashboard
+
+Dashboard Design Concept based on EDA and SQL analysis: <br/>
+
+1. The correlation of review rating scores among various categories can be presented in the interactive dashboard.
+    This can provide potential hosts with insights on how to improve overall ratings and increase booking rates and revenue.
+2. Host and listing information is presented for stakeholder exploration.
 
 The steps for data preparation and data modelling are documented in [Create Airbnb Dashboard in Power BI.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Create%20Airbnb%20Dashboard%20in%20Power%20BI).<br/>
 
