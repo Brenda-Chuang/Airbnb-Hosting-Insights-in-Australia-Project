@@ -1,43 +1,37 @@
 # Airbnb Hosting Insights in Australia
  
-## Dashboard Overview
+# Dashboard Overview
+
+The interactive dashboard provides actionable insights for Airbnb hosting in Australia, allowing users to explore trends in bookings.
 
 https://github.com/user-attachments/assets/95313bad-92dc-4e1f-b2ad-1d7888ea7c38
 
-Key features of the dashboard include: <br/>
-- Main Report Page: Provides a high-level overview addressing the primary questions.
+## Key Features
+- Main Report Page: Provides a high-level overview.
 - Drill-Through to Listing Details: Allows users to explore detailed information about specific listings from the main report page. Additionally, a map visual is applied for a better geographical understanding of each listing.
 - Rating Insights: Apply the key influencer and the map visual to help potential hosts understand factors influencing overall rating.
 - Hosting Insights: Present detailed information about existing hosts, including their tenure, number of listings, ratings, and estimated revenue for the next 30 days.
 - Light and dark modes: Allows users to switch between visual themes based on preference.
 
-Key Rating Influencers:<br/>
-Identified **Value**, **Cleanliness**, and **Accuracy** as critical factors significantly impacting overall guest satisfaction.
+# Project Overview
+As someone who has travelled extensively and stayed at various Airbnb accommodations, I became curious about the key factors that contribute to successful hosting. This project explores hosting trends in Australia using publicly available Airbnb data, providing actionable insights for new and existing hosts to optimize their strategies.<br/>
+By leveraging Python, SQL, and Power BI, the project transforms raw data into meaningful visualisations, helping hosts make data-driven decisions about pricing, occupancy, and revenue potential.<br/>
 
-Actionable Recommendations for Hosts:<br/>
-Enhance Value by offering competitive pricing and additional amenities.<br/>
-Improve Cleanliness through thorough cleaning protocols and guest feedback.<br/>
-Ensure Accuracy in listing descriptions to set correct guest expectations.
+## Key Insights:<br/>
+- Suburbs like Busselton, Albany, and Denmark in WA have higher booking rates, especially in the next 30 days (e.g., Busselton at 87%).
+- The number of reviews fluctuates throughout the year, with a peak around December and a significant dip during July, reflecting seasonal demand.
+- Entire homes/apartments dominate the market with the highest number of listings, followed by private rooms.
+- Identified **Value**, **Cleanliness**, and **Accuracy** as critical factors significantly impacting overall guest satisfaction.
+
+## Actionable Recommendations for Hosts:<br/>
+- Enhance Value by offering competitive pricing and additional amenities.<br/>
+- Improve Cleanliness through thorough cleaning protocols and guest feedback.<br/>
+- Ensure Accuracy in listing descriptions to set correct guest expectations.
 
 Data-Driven Decision Support:<br/>
 Provided potential hosts with insights into booking rates, listing details, and host performance metrics to inform investment decisions.
 
-## Problem Statement
-
-This project aims to provide potential Airbnb hosts in Australia, particularly in NSW, VIC, QLD, and WA, with key insights based on booking rates, listing details, and existing host information. <br/>
-
-Potential Airbnb hosts who wish to invest in the Airbnb business have approached to provide key insights to better understand the market. They have posed several questions, and additionally, requested an interactive dashboard for visualization purposes. This dashboard should be able to answer the following questions and provide other relevant information for further data exploration: <br/>
-
-1. Which location is ideal for starting an Airbnb business based on booking rates? <br/>
-2. What is the suitable listing daily price for the identified location in question 1? 
-3. what is the most common property and room type for the identified location in question 1? <br/>
-4. What is the seasonality of Airbnb hosting for the overall Australian market and the identified location in question 1? <br/>
-5. Who are the dominant hosts in the identified location? Provide detailed information including but not limited to their tenure, number of listings,
-   and estimated revenue for the next 30 days. <br/>
-
-The goal is to equip potential hosts with actionable insights to make informed decisions about their Airbnb investments. <br/> 
-
-## Data Collection
+## Dataset
 
 The data was collected from Inside Airbnb (https://insideairbnb.com/get-the-data/) in June 2024. <br/>
 The downloaded CSV files (listings.csv.gz) include the following: <br/>
@@ -48,33 +42,29 @@ The downloaded CSV files (listings.csv.gz) include the following: <br/>
 
 This project used the above data to represent the Airbnb listing in NSW, VIC, QLD, and WA (Sates).
 
-## Data Cleaning
+# Project Workflow
 
-**Tool: Python (Pandas/Matplotlib/Seaborn)** <br/>
+## 1. Data Cleaning
+
+**Tool: Python (Pandas)** <br/>
 <br/>
 The data cleaning includes the following steps:<br/>
 - Pre-cleaning: Concat all CSV files into one single dataframe <br/>
 - Step 1: Raw Data Understanding (e.g., data shape, data attributes, and data type.) <br/>
-- Step 2: Data preparation (e.g., change the data type, split columns, and handle missing values.) <br/>
-The cleaned data was written into a CSV file for further data storage.<br/>
+- Step 2: Data preparation <br/>
+  - Handled Missing Values: Dropped rows with critical missing values in the price column.
+  - Detected and Removed Outliers: 
+    - Price: Applied the Interquartile Range (IQR) method to flag outliers. Outliers defined as values outside [Q1 - 1.5 * IQR, Q3 + 1.5 * IQR]. Removed rows with price values exceeding the bounds to clean the dataset.
+    - Rating Score: Removed rows with rating score lower than 0 or higher than 5.
+
+- Step 3: The cleaned data was written into a CSV file for further data storage.<br/>
 
 Detailed steps and codes are documented in [Airbnb_Data cleaning_Python.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Airbnb_Data%20cleaning_Python.ipynb).<br/>
 
-## Load Data into the PostgreSQL database
-**Tool: Python(Pandas/psycopg2/sqlalchemy) | SQL(PostgreSQL)**<br/>
-
-- Step 1: Create an Airbnb database (Python).  <br/>
-- Step 2: Create tables and load the cleaned CSV file into the Airbnb database (Python). <br/>
-- Step 3: Change the data type to the correct format (PostgreSQL). <br/>
-
-Detailed steps and codes are documented in [Airbnb_Load Data into PostgreSQL.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Airbnb_Load%20data%20into%20PostgreSQL.ipynb).<br/>
-
-## Summary of Exploratory Data Analysis <br/>
+## 2. Exploratory Data Analysis <br/>
 Exploratory data analysis in Python was conducted after data cleaning and before dashboard creation to get a fundamental understanding of the dataset. <br/>
 
-- Python: Used for a broader understanding of the data. This includes: <br/>
-  - Understand the data statistics and distribution. <br/>
-  - Explore relationships through data correlation. <br/>
+**Tool: Python (Pandas/Matplotlib/Seaborn)
 
 1. Pricing <br/>
    - Western Australia's average listing price is the highest, $245, slightly higher than that of NSW ($242).
@@ -100,36 +90,51 @@ Exploratory data analysis in Python was conducted after data cleaning and before
   
 4. Review Rating score <br/>
   
-   - Based on the point chart, Cleanliness and Value negatively impact the overall rating score, with Value being the most influential negative factor.
+   - Value consistently has the lowest average rating across all states, suggesting it could negatively impact the overall score.
+   - Cleanliness is slightly higher than Value but still lags behind categories like Location and Communication.
+   - The line chart revealed that Value and Cleanliness have consistently lower scores across states, suggesting they might negatively impact overall ratings.
    
      ![image](https://github.com/user-attachments/assets/b9b55e74-1b07-4d44-bb2e-25ceaebf2b2a) 
   
-   - Based on the correlation heat map, Accuracy and Value are two factors that strongly and positively correlate with the overall rating score.
-     In addition, Cleanliness is the second most influential factor in the overall rating score. 
+   - The correlation heatmap confirmed that Accuracy and Value have the strongest positive correlations with overall ratings, with Accuracy being the most influential factor (correlation = 0.86) and Value as the second most influential factor (correlation = 0.85). This highlights the importance of improving these areas, alongside Cleanliness (correlation = 0.82), for hosts seeking higher overall scores.
      <br/>
      ![image](https://github.com/user-attachments/assets/26462ccf-77b6-4df2-a39b-b1ecaa633375) <br/>
      <br/>
 
-- PostgreSQL Analysis: <br/>
+## 3. Data Storage in SQL
+
+Storing data in SQL ensures scalability, reusability, and efficient querying for future analysis.
+
+**Tool: Python(Pandas/psycopg2/sqlalchemy) | SQL(PostgreSQL)**<br/>
+
+- Step 1: Create an Airbnb database (Python).  <br/>
+- Step 2: Create tables and load the cleaned CSV file into the Airbnb database (Python). <br/>
+- Step 3: Change the data type to the correct format (PostgreSQL). <br/>
+
+Detailed steps and codes are documented in [Airbnb_Load Data into PostgreSQL.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Airbnb_Load%20data%20into%20PostgreSQL.ipynb).<br/>
+
+## 4. PostgreSQL Analysis: <br/>
   To enable efficient querying and analysis, the Airbnb dataset was imported into a PostgreSQL database.
   Using SQL, I conducted advanced analyses to answer key business questions, such as identifying top-rated hosts, dominant hosts by listings, and revenue estimates. <br/>
+
+Detailed steps and codes are documented in [Airbnb_EDA in PostgreSQL.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Airbnb_EDA%20in%20PostgreSQL.sql).<br/>
+
   - Identify the top-rated host in each state (WA, NSW, VIC, QLD).<br/>
     ![image](https://github.com/user-attachments/assets/1a7607d9-4000-48db-bf74-c5855cafd610)
     <br/>
   - Identify the dominant host in each state (the host with the most listings).<br/>
     ![image](https://github.com/user-attachments/assets/7914d4f1-5e37-4836-9461-0efbc3a88c17)
     <br/>
-  - Calculate the total revenue and also the revenue in each suburb for the top dominant host in WA for the next 30 days.<br/>
+  - Calculate the estimated total revenue and also the estimated revenue in each suburb for the top dominant host in WA for the next 30 days.<br/>
     Suppose the properties are booked and not blocked by the host. The top 1 dominant host is Let Go; The agency owns 86 Airbnan listings
 	   and is estimated to earn AU$ 455,962 in the next 30 days calculated for the time the data was scrapped. <br/>
     ![image](https://github.com/user-attachments/assets/f9682c6b-0395-4ae8-af31-bfedcb2f7e3b)
     <br/>
 
-Detailed steps and codes are documented in [Airbnb_EDA in PostgreSQL.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Airbnb%20Hostig%20Analysis%20Project/Airbnb_EDA%20in%20PostgreSQL.sql).<br/>
 
-## Interactive Power BI Dashboard
+## 5. Interactive Power BI Dashboard
 
-Dashboard Design Concept based on EDA and SQL analysis: <br/>
+### 1) Dashboard Design Concept based on EDA and SQL analysis <br/>
 
 1. The correlation of review rating scores among various categories can be presented in the interactive dashboard.
     This can provide potential hosts with insights on how to improve overall ratings and increase booking rates and revenue.
@@ -137,20 +142,22 @@ Dashboard Design Concept based on EDA and SQL analysis: <br/>
 
 The steps for data preparation and data modelling are documented in [Create Airbnb Dashboard in Power BI.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Create%20Airbnb%20Dashboard%20in%20Power%20BI).<br/>
 
+### 2) Data Modelling
 The semantic model of the dataset is presented as follows: <br/>
 
 ![image](https://github.com/user-attachments/assets/ba155c07-d663-4ec1-b38f-71dc8b1a3214)
 <br/>
 
-The dashboard is designed to answer the client's questions outlined in the problem statement section and provide additional information for further exploration. 
-It combines multiple pages, including the main report page, listing details that can be drilled through from the main report page, rating insights, and hosting details. 
-As such, the potential hosts can explore the dashboard for more insights than just getting the answer from the original problem statement. <br/>
+### 3) Problem Statement
+
+The dashboard is designed for hosts to analyse trends in the existing data. It combines multiple pages, including the main report page, listing details that can be drilled through from the main report page, rating insights, and hosting details. 
+As such, the potential hosts can explore the dashboard for more insights. <br/>
 
 1. Which location is ideal for starting an Airbnb business based on booking rates? <br/>
-   Busselton, WA is considered an ideal location to start an Airbnb business, as the suburb has the most bookings (26,899) and a high booking rate (87%) for the next 30 days. <br/>
+   Busselton, WA is likely to be an ideal location to start an Airbnb business, as the suburb has the most bookings (26,899) and a high booking rate (87%) for the next 30 days. <br/>
 2. What is the suitable listing daily price for the identified location in question 1?  <br/>
    The daily price can be set between $195 and $478, which is calculated as the price within one standard deviation. <br/>
-3. what is the most common property and room type for the identified location in question 1? <br/>
+3. What is the most common property and room type for the identified location in question 1? <br/>
    The most common property type and room type for Airbnb listings in Busselton, WA is the entire home. <br/>
 
    Dashboard view for answering questions 1-4: <br/>
