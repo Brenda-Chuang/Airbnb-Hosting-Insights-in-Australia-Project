@@ -28,9 +28,6 @@ By leveraging Python, SQL, and Power BI, the project transforms raw data into me
 - Improve Cleanliness through thorough cleaning protocols and guest feedback.<br/>
 - Ensure Accuracy in listing descriptions to set correct guest expectations.
 
-Data-Driven Decision Support:<br/>
-Provided potential hosts with insights into booking rates, listing details, and host performance metrics to inform investment decisions.
-
 ## Dataset
 
 The data was collected from Inside Airbnb (https://insideairbnb.com/get-the-data/) in June 2024. <br/>
