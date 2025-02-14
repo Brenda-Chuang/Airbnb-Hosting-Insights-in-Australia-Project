@@ -139,13 +139,7 @@ Detailed steps and codes are documented in [Airbnb_EDA in PostgreSQL.ipynb](http
 
 The steps for data preparation and data modelling are documented in [Create Airbnb Dashboard in Power BI.ipynb](https://github.com/Brenda-Chuang/Airbnb-Hosting-in-Australia-Project/blob/main/Create%20Airbnb%20Dashboard%20in%20Power%20BI).<br/>
 
-### 2) Data Modelling
-The semantic model of the dataset is presented as follows: <br/>
-
-![image](https://github.com/user-attachments/assets/ba155c07-d663-4ec1-b38f-71dc8b1a3214)
-<br/>
-
-### 3) Problem Statement
+### 2) Problem Statement
 
 The dashboard is designed for hosts to analyse trends in the existing data. It combines multiple pages, including the main report page, listing details that can be drilled through from the main report page, rating insights, and hosting details. 
 As such, the potential hosts can explore the dashboard for more insights. <br/>
